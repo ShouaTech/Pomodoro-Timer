@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&display=swap');
 body {
     font-family: 'Orbitron', sans-serif;
     display: flex;
@@ -13,10 +13,15 @@ body {
     background-size: cover;
     background-position: center;
     border: 2px solid black;
-    height: 900px;
-    width: 650px;
+    height: 975px;
+    width: 800px;
     border-radius: 20px;
     box-shadow: 0 0 15px black;
+}
+
+
+.ultimate {
+    margin-top: 80px;
 }
 
 
@@ -25,10 +30,10 @@ body {
     justify-content: center;
     color: white;
     background-color: black;
-    font-size: 75px;
+    font-size: 85px;
     border: 2px solid lightsalmon;
     border-radius: 100px;
-    margin: 90px;
+    margin: 60px;
     padding: 50px;
     box-shadow: 0 0 20px lightsalmon;
     text-shadow: 2px 2px 15px lightsalmon;
@@ -36,11 +41,11 @@ body {
 
 
 h1 {
+    font-size: 25px;
     display: flex;
     justify-content: center;
     color: white;
     text-shadow: 5px 5px 8px lightsalmon;
-    margin-top: 30px;
 }
 
 .work-break {
@@ -48,24 +53,59 @@ h1 {
     justify-content: center;
     font-size: 25px;
     color: white;
+    text-shadow: 0 0 15px white;
 }
 
 .btns {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .bt-times {
-    font-family: 'Rajdhani';
+    font-family: inherit;
     font-size: 25px;
     border-radius: 15px;
     color: white; 
     background-color: black;
     box-shadow: 0 0 15px lightsalmon;
     text-shadow: 0 0 15px lightsalmon;
-    padding: 20px;
+    padding: 15px;
+    height: 70px;
+    width: 160px;
+    margin: 0 15px 0 15px;
 }
 
-.right {
-    margin-left: 45px
+.fun {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+   }
+
+.min {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+   }
+
+
+.more-time {
+    color: white;
+    font-size: 20px;
+    text-shadow: 0 0 15px white;
+    margin: 15px;
+}
+
+
+.snooze {
+    background: url(images/pomodoro.jpg);
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    height: 50px;
+    width: 600px;
+    border-radius: 15px;
+    color: whitesmoke;
+    border: 2px solid lightcoral;
+    box-shadow: 0 0 15px purple;
 }
